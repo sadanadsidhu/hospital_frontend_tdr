@@ -5,11 +5,16 @@ import IpcOpc from './ipcandopcbutton/IpcOpc';
 import Mainscreen from './mainpages/Mainpage';
 import Opd from './opdsection/Opd';
 import Parent from './parentfolder/Parent';
+import Bed from './bedinfo/Bed';
+import Patient from './patient/Patient';
 import './index.css';
 const Layout = () => {
   return (
     <div className="">
     <Header/>
+    <Patient/>
+    
+{/* <Bed/> */}
      {/* <Parent/> */}
     <IpcOpc/>
     {/* <Opd/>
